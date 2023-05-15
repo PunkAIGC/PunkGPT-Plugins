@@ -8,7 +8,7 @@ const path = require("path");
 app.use(express.json());
 app.use(cors({ origin: "https://punk.openai1s.com" }));
 
-const root = "./chatfiles";
+const root = "./";
 
 // List files and directories
 app.post("/fs/list", (req, res) => {
